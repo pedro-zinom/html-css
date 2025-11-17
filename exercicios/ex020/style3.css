@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(29, 29, 29);
+    color: rgb(235, 235, 235);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div {
+    background-color: rgb(255, 173, 162);
+    color: rgb(34, 34, 34);
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+div:hover {
+    background-color: rgb(133, 216, 216);
+}

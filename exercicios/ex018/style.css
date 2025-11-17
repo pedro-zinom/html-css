@@ -1,0 +1,25 @@
+@charset "UTF-8";
+@font-face {
+    font-family: crusades;
+    src: url(../fonts/Crusades.ttf);
+}
+@font-face {
+    font-family: typewriter;
+    src: url(../fonts/AA_typewriter.ttf);
+}
+
+* {
+    font-family: typewriter;
+    background-color: rgb(39, 39, 39);
+    color: white;
+} 
+
+h1 {
+    color: aquamarine;
+    font-size: 4em;
+}
+
+p {
+    color: azure;
+    font-size: 2em;
+}

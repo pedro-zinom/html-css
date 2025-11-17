@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@font-face {
+    font-family: crusades;
+    src: url(../fonts/Crusades.ttf);
+}
+@font-face {
+    font-family: typewriter;
+    src: url(../fonts/AA_typewriter.ttf);
+}
+
+* {
+    font-family: typewriter;
+    background-color: rgb(39, 39, 39);
+    color: white;
+} 
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: right;
+}
+
+p {
+    text-align: justify;
+    text-indent: 20px;
+}

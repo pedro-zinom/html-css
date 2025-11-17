@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <link rel="shortcut icon" href="../icons/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>imagens dinâmicas</h1>
+    <p>Tente abrir este site em dispositivos diferentes ou aumente e diminua o tamanho do navegador.</p>
+    
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/img-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/img-m.jpg" type="image/jpg">
+        <img src="imagens/img-g.jpg" alt="imagem flexível">
+    </picture>
+
+    <h1>reproduzir audio</h1>
+    <p>reproduzindo audio em HTML5 : "King Knight"</p>
+    <audio src="midia/epico.mp3" controls autoplay loop></audio>
+</body>
+</html>

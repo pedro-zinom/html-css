@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body {
+        background-color: rgb(33, 34, 34);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: azure;
+    }
+    a {
+        color: rgb(195, 241, 173);
+    }

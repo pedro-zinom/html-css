@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(37, 37, 37);
+    color: rgb(235, 235, 235);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: rgb(135, 147, 255);
+}
+
+h1#principal {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(51, 77, 49);
+}
+
+.basico {
+    color: rgb(74, 255, 74);
+}
+
+.intermedio {
+    color: rgb(255, 243, 72);
+}
+
+.avancado {
+    color: rgb(255, 66, 52);
+}
+
+.destaque {
+    background-color: rgba(82, 82, 82, 0.288);
+}
+
+p {
+    text-indent: 20px;
+}

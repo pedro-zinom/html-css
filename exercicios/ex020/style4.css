@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/*
+    SELECTORES PERSONALIZADOS
+
+    # = id
+    . = classe
+    : = pseudo classe
+   :: = pseudo elemento
+    > = filho (child)
+*/
+
+body {
+    background-color: rgb(29, 29, 29);
+    color: rgb(235, 235, 235);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    color: rgb(220, 243, 87);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a::after {
+    content: ' (link)';
+    text-decoration: none;
+    font-weight: normal;
+    color: rgba(177, 175, 175, 0.459);
+}
+
+a:visited {
+    color: rgb(245, 119, 103);
+}
+
+a:hover {
+    color: rgb(220, 243, 87);
+    text-decoration: underline;
+}

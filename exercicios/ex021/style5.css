@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+* {
+    /*background-color: rgb(29, 29, 29);
+    color: rgb(207, 207, 207);*/
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    background-color: rgb(51, 51, 51);
+    color: antiquewhite;
+    padding: 10px 10px 20px 10px;
+    margin: 10px;
+}
+
+nav {
+    background-color: rgb(65, 64, 64);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(226, 146, 146);
+}
+
+nav > a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+nav > a:hover {
+    color: rgb(247, 126, 126);
+}
+
+main {
+    background-color: antiquewhite;
+    color: rgb(43, 43, 43);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(22, 22, 22);
+}
+
+article {
+    background-color: rgb(197, 197, 197);
+    padding: 5px;
+}
+
+article > aside {
+    background-color: rgb(163, 162, 162);
+}
+
+footer {
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+
+footer > p {
+    margin: 0px;
+}
