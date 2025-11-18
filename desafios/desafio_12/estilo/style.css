@@ -1,13 +1,30 @@
 @charset "UTF-8";
+@font-face {
+    font-family: 'PassionOne';
+    src: url(../fontes/PassionOne-Regular.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Sriracha';
+    src: url(../fontes/Sriracha-Regular.ttf);
+}
+
+:root {
+    --fonte-1: verdana, Geneva, Tahoma, sans-serif;
+    --fonte-2: 'PassionOne';
+    --fonte-3: 'Sriracha';
+}
 
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 html, body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte-1);
 }
 
 header {
@@ -19,10 +36,13 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte-2);
+    font-size: 7vw;
 }
 
 header > p {
     padding-bottom: 50px;
+    font-size: 2vw;
 }
 
 a {
@@ -40,6 +60,8 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte-3);
+    font-size: 3vw;
 }
 
 section.normal {
@@ -53,13 +75,15 @@ section.imagem {
 }
 
 section.imagem > p {
-    width: 400px;
-    background-color: rgba(0, 0, 0, 0.329);
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(36, 36, 36, 0.329);
 }
 
 footer {
     background-color: black;
     color: white;
+    font-size: 1vw;
     text-align: center;
     padding: 10px;
 }
