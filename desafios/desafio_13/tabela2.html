@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela 2 do desafio 13</title>
+    <style>
+        caption {
+            font-size: 1.3em;
+            margin-bottom: 5px;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: bisque;
+        }
+        table {
+            width: 300px;
+            background-color: lightgray;
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        tr > td {
+            background-color: rgb(87, 86, 86);
+            color: white;
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 3px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela 1</h1>
+    <table>
+        <caption>Tabelas misturadas (2)</caption>
+        <tr>
+            <td colspan="4">A</td>
+            <td rowspan="4">B</td>
+        </tr>
+        <tr>
+            <td rowspan="4">C</td>
+            <td>D</td>
+            <td>E</td>
+            <TD>F</TD>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <TD>I</TD>
+        </tr>
+        <tr>
+            <td>J</td>
+            <td>L</td>
+            <td>M</td>
+        </tr>
+        <tr>
+            <td colspan="4">N</td>
+        </tr>
+    </table>
+</body>
+</html>
