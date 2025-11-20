@@ -11,6 +11,7 @@
 
         table {
             width: 400px;
+            position: relative;
         }
 
         td, th {
@@ -30,11 +31,19 @@
         td.pop {
             text-align: right;
         }
+
         thead, tfoot {
             background-color: grey;
             color: white;
             text-shadow: 1px 1px 0px black;
         }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: grey;
+        }
+
         tbody > tr:nth-child(even) {
             background-color: rgb(206, 206, 206);
         }
@@ -181,6 +190,5 @@
             </tr>
         </tfoot>
     </table>
-
 </body>
 </html>
